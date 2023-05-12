@@ -1,5 +1,5 @@
 # Copied from section.io/engineering-education/rsa-encryption-and-decryption-in-python/
-# Most of this code likely won't be implemented in the real RSABuddy program. This is just for reference.
+# The complete code likely won't be implemented into RSABuddy. This is just for reference.
 
 import rsa
 
