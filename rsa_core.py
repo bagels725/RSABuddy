@@ -1,8 +1,8 @@
-# copied from section.io/engineering-education/rsa-encryption-and-decryption-in-python/
+# Copied from section.io/engineering-education/rsa-encryption-and-decryption-in-python/
+# Most of this code likely won't be implemented in the real RSABuddy program. This is just for reference.
 
 import rsa
 
-# TODO: Allow use of pre-made random bytes that can be imported from random.org.
 def generateKeys():
   (publicKey, privateKey) = rsa.newkeys(1024)
   with open('keys/publicKey.pem', 'wb') as p:
